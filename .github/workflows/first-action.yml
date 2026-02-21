@@ -7,4 +7,9 @@ jobs :
       - name : Print greetings
         run  : echo "Hello World!"
       - name : Print Goodbye
-        run  : echo "{{whoami}}"
+       
+        run: |
+          id
+          echo "Home: $HOME"
+          echo "Shell: $SHELL"
+
