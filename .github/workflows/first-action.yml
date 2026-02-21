@@ -9,5 +9,5 @@ jobs :
       - name : Print Goodbye
        
         run: date
-        run: cat /etc/host
+       
 
