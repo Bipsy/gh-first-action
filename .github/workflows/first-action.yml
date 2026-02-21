@@ -7,4 +7,4 @@ jobs :
       - name : Print greetings
         run  : echo "Hello World!"
       - name : Print Goodbye
-        run  : whoami
+        run  : echo "{{whoami}}"
